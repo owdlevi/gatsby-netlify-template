@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
   branch: master
+# This line should *not* be indented
+publish_mode: editorial_workflow
 
 media_folder: static/img
 public_folder: /img
@@ -44,4 +46,3 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-   
